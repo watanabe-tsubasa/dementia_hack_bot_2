@@ -1,0 +1,17 @@
+{
+  "version": "1.0.103",
+  "name": "app",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "dotenv": "^16.3.1",
+    "hono": "^2.2.5",
+    "openai": "^3.3.0"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "module": "src/index.js"
+}
